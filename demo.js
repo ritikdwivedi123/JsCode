@@ -1,4 +1,4 @@
-/*   Closer example
+  Closer example
 function sum (a) {
     var c = 5;
     console.log("My age is " + a);
@@ -9,9 +9,9 @@ function sum (a) {
 
 var data=sum(8);
 console.log(data(10));
-*/
 
-/*    Callback example
+
+    Callback example
 const data=[
     {name: 'Ritik', age: 25},
     {name: 'Ayush', age: 27}
@@ -35,9 +35,9 @@ createData=(newData, callback)=>{
 }
 
 createData(  {name: 'Himanshu', age: 26},getData)
-*/
 
-/*  Promise example
+
+  Promise example
 const data=[
     {name: 'Ritik', age: 25},
     {name: 'Ayush', age: 27}
@@ -70,10 +70,10 @@ createData=(newData)=>{
 }
 
 createData({name: 'Himanshu', age: 26}).then(getData).catch((err)=>console.log(err))
-*/
 
 
-/* async await example
+
+ async await example
 const data=[
     {name: 'Ritik', age: 25},
     {name: 'Ayush', age: 27}
@@ -111,7 +111,7 @@ createData=(newData)=>{
 }
 
 start();
-*/
+
 
 
 
